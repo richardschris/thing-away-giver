@@ -1,0 +1,35 @@
+#book-title {
+    font-style: italic;
+    font-family: sans-serif;
+    display: inline;
+    float: left;
+}
+
+#book-author {
+    font-weight: bold;
+    font-family: sans-serif;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+input[type="checkbox"] {
+    display: inline;
+    float: left;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+}
+
+.claimed {
+    text-decoration: line-through;
+}
+
+.claimed #book-author {
+    text-decoration: line-through;
+}
+
+.claimed #book-title {
+    text-decoration: line-through;
+}

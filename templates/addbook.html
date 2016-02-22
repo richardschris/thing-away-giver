@@ -1,0 +1,15 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h1>Add Books</h1>
+    <p><a href="{{url_for('view_results')}}">View Results</a></p>
+
+    <form method="post" action="{{url_for('add_book')}}">
+        <input type="text" name="author" placeholder="author">
+        <input type="text" name="title" placeholder="title">
+        <input type="submit" name="Submit">
+    </form>
+</body>
+</html>
