@@ -5,14 +5,14 @@ A small web app for allocating things you're giving away
 
 It is only tested with Python 3.4. A standard setup will need either WSGI or Passenger config files; they are simple, but may vary based on host. You'd want to do the following to create your virtualenv (changing paths as you need to).
 
-`cd ~
+```cd ~
 virtualenv --python=python3.4 pyenv
 source pyenv/bin/activate
-pip install flask`
+pip install flask```
 
 ## Using
 
-The app expects an SQLite database with the following columns
+The app expects an SQLite database with a table consisting of the following columns
 
 1: title (text)
 2: author (text)
